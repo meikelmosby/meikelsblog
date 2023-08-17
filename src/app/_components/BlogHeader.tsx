@@ -10,7 +10,7 @@ const builder = imageUrlBuilder(client);
 export default function BlogHeader() {
     return (
         <div className="text-center mt-8">
-            <h1 className="text-white text-4xl font-bold underline decoration-yellow-500">Meikel's Blog</h1>
+            <h1 className="text-white text-4xl font-bold underline decoration-yellow-500">Meikel&apos;s Blog</h1>
             <div className="mt-4 text-xl">
                 Everything <span className="underline text-white decoration-yellow-500">Tech</span>, <span className="underline text-white decoration-yellow-500">Teams</span> and <span className="underline text-white decoration-yellow-500">Building Things</span>
             </div>
