@@ -15,11 +15,10 @@ export default async function Home() {
     if (preview && preview.token) {
         return (
             <PreviewProvider token={preview.token}>
-                <BlogHeader />
                 <PreviewPosts posts={posts} />
             </PreviewProvider>
         );
     }
 
-    return <div><BlogHeader/><Posts posts={posts}/></div>;
+    return <div><Posts posts={posts}/></div>;
 }

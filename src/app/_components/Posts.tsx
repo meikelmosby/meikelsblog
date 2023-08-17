@@ -1,9 +1,7 @@
 
 import Link from "next/link";
 import type { SanityDocument } from "@sanity/client";
-import BlogHeader from "@/app/_components/BlogHeader";
 import imageUrlBuilder from "@sanity/image-url";
-import { PortableText } from "@portabletext/react";
 import {client} from "../../../sanity/lib/client";
 import Image from "next/image";
 
